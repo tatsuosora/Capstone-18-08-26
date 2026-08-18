@@ -1,0 +1,112 @@
+.logo {
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.neon {
+border: 2px solid rgb(215, 53, 221);
+    box-shadow:
+        0 0 5px #b026ff,
+        0 0 10px #b026ff,
+        0 0 20px #b026ff,
+        0 0 50px #b026ff;
+
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+   
+   outline: 1px solid white;
+    outline-offset: 5px;
+    background-color: #80808040;
+    height: 670px;
+    
+    margin: 20px 50px 0px 50px;
+   
+border-radius: 10px;
+
+}
+body {
+    background-color: #231a29 !important;
+    background-image: url(../Assets/background.png);
+     background-size: 0.5vh;
+   
+    
+
+    
+}
+.main_text {
+font-family:"Comic Sans MS";
+}
+.secundary_text {
+font-family: "Rajdhani", sans-serif;
+}
+h1 {
+    color: aliceblue ;
+    margin-bottom: 50px ;
+    font-size: 100px ;
+
+margin-top: 150px;
+
+ 
+}
+.box p {
+    color: rgb(243, 185, 243) ;
+    width: 100;
+    font-size: 18px;
+    grid-row-start: 2;
+
+    margin-top: 10px;
+   margin-right: 55px;
+}
+
+.keyboard {
+    margin-top: 176px;
+    margin-right: 50px;
+    max-width: 100%;
+
+}
+.Flex-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.profile {
+    background-color: aliceblue;
+    height: 600px;
+    margin-top: 80px !important;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+ .white {
+    color: antiquewhite !important;
+ }
+
+ .contact {
+    background-color: aliceblue;
+    height: 400px;
+    margin-top: 80px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+.container {max-width: 100vh;}
+h1 {font-size: 80px;}
+div .box {height: 580px;}
+body > div.row.profile.neon {height: 400px;}
+.profile {margin-top: 40px !important;}
+.change {flex-direction: column !important;}
+div.profile.neon {height: auto;}
+.aprendiz {margin-top: -20px !important; margin-left: 40px;}
+}
